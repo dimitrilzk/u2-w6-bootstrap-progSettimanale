@@ -10771,14 +10771,49 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+nav {
+  background-color: #3c3431;
+}
+nav a {
+  color: #fdf4e3 !important;
+}
+nav .dropdown-menu {
+  background-color: #3c3431;
+}
+nav button {
+  color: #fdf4e3 !important;
+}
+
+.navbar-toggler {
+  color: #fdf4e3 !important;
+}
+
+#footer {
+  background-color: #3c3431;
+}
+#footer p {
+  color: #fdf4e3;
+}
+
 .logo-img {
-  width: 40px;
+  width: 70px;
   object-fit: cover;
 }
 
 .carousel-inner img {
   height: 500px;
   object-fit: cover;
+}
+
+.card {
+  background-color: #f0e1ca;
+}
+.card .card-body {
+  background-color: #a8907d;
+}
+
+body {
+  background-color: #fdf4e3;
 }
 
 /*# sourceMappingURL=styles.css.map */

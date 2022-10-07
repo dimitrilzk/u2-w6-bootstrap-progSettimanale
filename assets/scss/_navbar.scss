@@ -1,0 +1,21 @@
+nav {
+    background-color: $colore-dark;
+    a {
+        color: $colore-primario!important;
+    }
+    .dropdown-menu {
+        background-color: $colore-dark;
+    }
+    button {
+        color: $colore-primario!important;
+    }
+}
+.navbar-toggler {
+    color: $colore-primario!important;
+}
+#footer {
+    background-color: $colore-dark;
+    p {
+        color: $colore-primario;
+    }
+}

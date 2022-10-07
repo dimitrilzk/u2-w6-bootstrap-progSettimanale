@@ -1,0 +1,14 @@
+.logo-img{
+    width: 70px;
+    object-fit: cover;
+}
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+.card {
+    background-color: $colore-secondario;
+    .card-body {
+        background-color: $colore-info;
+    }
+}
