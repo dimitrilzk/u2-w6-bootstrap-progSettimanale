@@ -10776,4 +10776,9 @@ textarea.form-control-lg {
   object-fit: cover;
 }
 
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=styles.css.map */
