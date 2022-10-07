@@ -1,5 +1,5 @@
 .logo-img{
-    width: 70px;
+    width: 50px;
     object-fit: cover;
 }
 .carousel-inner img {
@@ -11,4 +11,8 @@
     .card-body {
         background-color: $colore-info;
     }
+}
+.bi {
+    color: white;
+    font-size: 10px;
 }
