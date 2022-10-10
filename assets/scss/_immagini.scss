@@ -1,3 +1,4 @@
+@import "./mediaquery";
 .logo-img{
     width: 50px;
     object-fit: cover;
@@ -15,4 +16,22 @@
 .bi {
     color: white;
     font-size: 10px;
+}
+.card {
+    @include xs {
+        width: 10rem;
+    }
+    @include sm {
+        width: 5rem;
+    }
+    @include md {
+        width: 5rem;
+    }
+    @include lg {
+        width: 5rem;
+    }
+    @include xl {
+        width: 5rem;
+    }
+
 }
