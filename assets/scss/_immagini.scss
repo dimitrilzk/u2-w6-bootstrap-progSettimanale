@@ -19,19 +19,19 @@
 }
 .card {
     @include xs {
-        width: 10rem;
+        width: 15rem;
     }
     @include sm {
-        width: 5rem;
+        width: 14rem;
     }
     @include md {
-        width: 5rem;
+        width: 14rem;
     }
     @include lg {
-        width: 5rem;
+        width: 13rem;
     }
     @include xl {
-        width: 5rem;
+        width: 18rem;
     }
 
 }

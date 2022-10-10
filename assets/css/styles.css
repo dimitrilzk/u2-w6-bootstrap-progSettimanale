@@ -10829,27 +10829,27 @@ nav button {
 
 @media (max-width: 576px) {
   .card {
-    width: 10rem;
+    width: 15rem;
   }
 }
 @media (min-width: 576px) {
   .card {
-    width: 5rem;
+    width: 14rem;
   }
 }
 @media (min-width: 768px) {
   .card {
-    width: 5rem;
+    width: 14rem;
   }
 }
 @media (min-width: 992px) {
   .card {
-    width: 5rem;
+    width: 13rem;
   }
 }
 @media (min-width: 1200px) {
   .card {
-    width: 5rem;
+    width: 18rem;
   }
 }
 
