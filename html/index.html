@@ -29,7 +29,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNavDropdown">
-          <button type="button" class="btn btn-dark me-3">Dark Mode</button>
+          <button onclick="darkMode()" type="button" class="btn btn-dark me-3">Dark Mode</button>
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
               <a
@@ -102,17 +102,6 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  src="https://i.picsum.photos/id/1011/5472/3648.jpg?hmac=Koo9845x2akkVzVFX3xxAc9BCkeGYA9VRVfLE4f0Zzk"
-                  class="d-block w-100"
-                  alt="..."
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Lago di Braies</h5>
-                  <p>Italia</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
                   src="https://i.picsum.photos/id/1040/4496/3000.jpg?hmac=kvZONlBpTcZ16PuE_g2RWxlicQ5JKVq2lqqZndfafBY"
                   class="d-block w-100"
                   alt="..."
@@ -120,6 +109,17 @@
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Castello Neuschwanstein</h5>
                   <p>Germania</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.picsum.photos/id/1011/5472/3648.jpg?hmac=Koo9845x2akkVzVFX3xxAc9BCkeGYA9VRVfLE4f0Zzk"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Lago di Braies</h5>
+                  <p>Italia</p>
                 </div>
               </div>
               <div class="carousel-item">
@@ -293,5 +293,6 @@
       </div>
     </div>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../scripts/script.js"></script>
   </body>
 </html>
